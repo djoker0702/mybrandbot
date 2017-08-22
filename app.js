@@ -47,7 +47,7 @@ if (!config.SERVER_URL) { //used for ink to static files
 
 
 
-mongoose.connect('mongodb://213.136.91.228:27017/users',function(err){
+mongoose.connect('mongodb://127.0.0.1:27017/users',function(err){
 	if (err) throw err;
 	console.log('connected to database');
 });
